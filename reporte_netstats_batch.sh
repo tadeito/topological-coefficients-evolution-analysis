@@ -24,6 +24,7 @@ rm items
 rm params
 rm report
 rm report.csv
+rm header
 
 #show me the results!
 column -s "," -t report_completo.csv | less -N -S
